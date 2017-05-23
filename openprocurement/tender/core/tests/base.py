@@ -4,10 +4,10 @@ import os
 from uuid import uuid4
 from copy import deepcopy
 from urllib import urlencode
-from webtest import TestApp
 from base64 import b64encode
 from datetime import datetime
 from requests.models import Response
+from webtest import TestApp
 
 from openprocurement.api.tests.base import BaseWebTest
 from openprocurement.api.utils import SESSION, apply_data_patch
